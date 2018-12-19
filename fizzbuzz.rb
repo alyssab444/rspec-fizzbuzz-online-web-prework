@@ -4,8 +4,7 @@ def fizzbuzz(int)
 elseif fizzbuzz(int)
   if int % 5 == 0 
     return "Buzz"
-elseif
-def fizzbuzz(int)
+elseif fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0 
     return "Fizzbuzz" 
 end 
