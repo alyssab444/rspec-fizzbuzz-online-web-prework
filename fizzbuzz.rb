@@ -1,13 +1,11 @@
-def fizzbuzz (number)
-  if number % 3 == 0 
-   return "Fizz"
-elseif fizzbuzz (number)
-  if number % 5 == 0 
-    return "Buzz"
-elseif fizzbuzz (number)
-  if number % 3 == 0 && int % 5 == 0 
-    return "Fizzbuzz" 
- else 
-   number
+def fizzBuzz(number)
+  if number % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
+  elsif number % 3 == 0
+    "Fizz"
+  elsif number % 5 == 0
+    "Buzz"
+  else
+    number
   end
-end 
+end
