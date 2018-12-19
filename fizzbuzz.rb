@@ -7,5 +7,7 @@ elseif fizzbuzz (number)
 elseif fizzbuzz (number)
   if number % 3 == 0 && int % 5 == 0 
     return "Fizzbuzz" 
+ else 
+   number
   end
 end 
